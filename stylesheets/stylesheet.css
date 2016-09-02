@@ -50,6 +50,17 @@
     overflow: hidden;
   }
 
+.imgimg {
+  background-image: image(images/logotrans.png);
+}
+
+*/
+@media only screen and (min-device-width: 500px) {
+    .imgimg {
+      background-image: image(images/logotrans.png);
+      width: 100px;
+    }
+}
 
 @media screen and (min-width: 64em) {
   .btn {
