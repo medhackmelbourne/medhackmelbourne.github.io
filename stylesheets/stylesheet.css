@@ -1,38 +1,55 @@
 * {
   box-sizing: border-box; }
 
-body {
-  padding: 0;
-  margin: 0;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
-  color: #606c71; }
+  /**
+   * Reset some basic elements
+   */
 
-a {
-  color: #1e6bb8;
-  text-decoration: none; }
-  a:hover {
-    text-decoration: underline; }
+  body {
+    background-color: #fff;
+  }
 
-.btn {
-  display: inline-block;
-  margin-bottom: 1rem;
-  color: rgba(255, 255, 255, 0.7);
-  background-color: rgba(255, 255, 255, 0.08);
-  border-color: rgba(255, 255, 255, 0.2);
-  border-style: solid;
-  border-width: 1px;
-  border-radius: 0.3rem;
-  transition: color 0.2s, background-color 0.2s, border-color 0.2s; }
-  .btn + .btn {
-    margin-left: 1rem; }
+  body, h1, h2, h3, h4, h5, h6,
+  p, blockquote, pre, hr,
+  dl, dd, ol, ul, figure {
+    margin: 0;
+    padding: 0; }
 
-.btn:hover {
-  color: rgba(255, 255, 255, 0.8);
-  text-decoration: none;
-  background-color: rgba(255, 255, 255, 0.2);
-  border-color: rgba(255, 255, 255, 0.3); }
+
+  .medhack {
+    padding: 20px 20px 30px 20px;
+    margin: 0 auto;
+    background: linear-gradient(120deg, #0047bf, #29bb96);
+    background-size: 100%;
+  }
+
+  .texty {
+    padding: 20px;
+  }
+
+  .speakerhead {
+    padding: 2px;
+    margin: 0 auto;
+    background: linear-gradient(120deg, #0047bf, #29bb96);
+    background-size: 100%;
+  }
+
+  .speakers {
+    padding: 30px;
+    margin: 0 auto;
+    background-color: #F9F9F9;
+  }
+
+  .circle {
+    width: 200px;
+    height: 200px;
+    color: #FFFFFF;
+    border-radius: 100%;
+    background-color: #ff7599;
+    display: inline-block;
+    overflow: hidden;
+  }
+
 
 @media screen and (min-width: 64em) {
   .btn {
