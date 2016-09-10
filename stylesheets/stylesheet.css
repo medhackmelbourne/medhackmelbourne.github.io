@@ -47,8 +47,9 @@
   .person {
     padding: 20px;
   }
-  .persontext{
 
+  .persontext{
+    padding-top: 20px;
   }
   .circle {
     width: 150px;
