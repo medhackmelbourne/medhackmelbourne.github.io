@@ -19,7 +19,8 @@
   .medhack {
     padding: 20px 20px 30px 20px;
     margin: 0 auto;
-    background: linear-gradient(120deg, #0047bf, #29bb96);
+    /* background: linear-gradient(120deg, #0047bf, #29bb96);*/
+    background-image: url("images/hacking.png");
     background-size: 100%;
   }
 
@@ -41,13 +42,14 @@
   }
 
   .circle {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     color: #FFFFFF;
     border-radius: 100%;
     background-color: #ff7599;
     display: inline-block;
     overflow: hidden;
+    float: left;
   }
 
 .imgimg {
