@@ -68,6 +68,10 @@
     float: left;
   }
 
+.sponsors {
+  background-color: #FFF;
+}
+
 .imgimg {
   background-image: image(images/logotrans.png);
 }
