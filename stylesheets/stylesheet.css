@@ -23,8 +23,12 @@
     padding: 200px 20px 200px 20px;
     margin: 0 auto;
     background: url('../images/hacking2.png') no-repeat center center;
-    background-size: 100%;
-    background-repeat: no-repeat;
+    width: 100%;
+    overflow: hidden;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
   }
 
   .whattodo{
