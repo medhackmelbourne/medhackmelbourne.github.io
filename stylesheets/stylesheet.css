@@ -20,13 +20,21 @@
 
 
   #medhack {
-    padding: 200px 20px 200px 20px;
+
     margin: 0 auto;
-    background-image: url('../images/hacking2.png');
-    /*background: linear-gradient(120deg, #0047bf, #29bb96);*/
+    background: url('../images/hacking2.png') no-repeat center center;
+    width: 100%;
+    padding: 20px 10px 60px 10px;
+    height: 100vh;
+    overflow: hidden;
     background-size: 100%;
     background-repeat: no-repeat;
   }
+
+  .loltext {
+    padding: 220px 20px 200px 20px;
+  }
+
 
   .whattodo{
     background-color: #47aebb;
