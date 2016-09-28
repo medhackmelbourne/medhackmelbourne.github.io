@@ -7,8 +7,9 @@
 
   body {
     background-color: #fff;
-    background-image: image('images/hacking.png');
     background-size: 100%;
+    font-family: "Lato", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
   }
 
   body, h1, h2, h3, h4, h5, h6,
@@ -19,10 +20,10 @@
 
 
   #medhack {
-    padding: 20px 20px 30px 20px;
+    padding: 200px 20px 200px 20px;
     margin: 0 auto;
-    background-image: url("images/hacking.png");
-    background: linear-gradient(120deg, #0047bf, #29bb96);
+    background-image: url('../images/hacking2.png');
+    /*background: linear-gradient(120deg, #0047bf, #29bb96);*/
     background-size: 100%;
     background-repeat: no-repeat;
   }
@@ -71,14 +72,6 @@
     .imgimg {
       background-image: image(images/logotrans.png);
       width: 100px;
-    }
-
-    #medhack {
-      padding: 20px 20px 30px 20px;
-      margin: 0 auto;
-      background-image: url("images/hacking.png");
-      background-size: 100%;
-      background-repeat: no-repeat;
     }
 
 }
