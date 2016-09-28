@@ -50,7 +50,7 @@
   .speakers {
     padding: 30px;
     margin: 0 auto;
-    background-color: #FFF;
+    background-color: #F9f9f9;
   }
 
   .person {
@@ -73,6 +73,8 @@
 
 .sponsors {
   background-color: #FFF;
+  padding-top: 20px;
+  margin: 0 auto;
 }
 
 .imgimg {
