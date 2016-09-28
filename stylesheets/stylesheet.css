@@ -28,6 +28,11 @@
     background-repeat: no-repeat;
   }
 
+  .whattodo{
+    background-color: #4dd0e1;
+    padding: 40px 40px 40px 40px;
+  }
+
   .texty {
     padding: 20px;
   }
