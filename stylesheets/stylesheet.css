@@ -22,7 +22,7 @@
   #medhack {
     padding: 200px 20px 200px 20px;
     margin: 0 auto;
-    background: url('../images/hacking2.png') no-repeat center center;
+    background: url('../images/hacking3.png') no-repeat center center;
     width: 100%;
     overflow: hidden;
     background-size: cover;
@@ -31,10 +31,21 @@
     -o-background-size: cover;
   }
 
+  .title {
+    color: #fff;
+    font-family: Didact Gothic;
+  }
   .whattodo{
     /*background-color: #47aebb;*/
     background-color: #FFF;
     padding: 40px 40px 40px 40px;
+  }
+
+  .faq {
+     background-color: #70cbce;
+     color: #FFF;
+     padding: 20px;
+     width: 100%;
   }
 
   .texty {
@@ -74,8 +85,8 @@
 
 .sponsors {
   background-color: #FFF;
-  padding-top: 20px;
-  margin: 0 auto;
+  padding: 30px;
+  display: inline;
 }
 
 .imgimg {
