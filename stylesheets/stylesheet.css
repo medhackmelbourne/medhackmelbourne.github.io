@@ -63,6 +63,7 @@
     padding: 30px;
     margin: 0 auto;
     background-color: #F9f9f9;
+    overflow: hidden;
   }
 
   .person {
@@ -85,7 +86,7 @@
 
 .sponsors {
   background-color: #FFF;
-  padding: 30px;
+  padding-top: 20px;
   display: inline;
 }
 
