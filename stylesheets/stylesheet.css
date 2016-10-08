@@ -31,6 +31,10 @@
     -o-background-size: cover;
   }
 
+  #intro {
+    padding: 30px;
+  }
+
   .title {
     color: #fff;
     font-family: Didact Gothic;
@@ -66,23 +70,45 @@
     overflow: hidden;
   }
 
-  .person {
-    padding: 20px;
+  .judge {
+    display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        margin-bottom: 24px;
+        max-width: 400px;
+        width: 100%;
+        font-size: 18px;
+        flex: 1 1 380px;
   }
 
-  .persontext{
-    padding-top: 20px;
+  .judgename{
+    font-size: 22px;
+    font-weight: 600;
+    padding-bottom: 5px;
   }
-  .circle {
-    width: 150px;
-    height: 150px;
-    color: #FFFFFF;
+
+  .judgeinfo {
+    padding: 10px;
+    font-size: 18px;
+    justify-content: center;
+  }
+
+  .judgeimage {
+    margin-right: 20px;
+    width: 140px;
+    height: 140px;
+    background-size: cover;
+    flex: 0 0 140px;
+    background-position: center center;
     border-radius: 100%;
-    background-color: #ff7599;
-    display: inline-block;
     overflow: hidden;
-    float: left;
+
   }
+
+.socmed {
+  padding-top: 10px;
+}
 
 .sponsors {
   background-color: #FFF;
@@ -91,15 +117,13 @@
 }
 
 .imgimg {
-  background-image: image(images/logotrans.png);
+  max-width: 600px;
+  width: 90%;
 }
 
 */
 @media only screen and (min-device-width: 500px) {
-    .imgimg {
-      background-image: image(images/logotrans.png);
-      width: 100px;
-    }
+
 
 }
 
