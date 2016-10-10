@@ -1,5 +1,6 @@
 * {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  font-family: "Lato", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;}
 
   /**
    * Reset some basic elements
@@ -55,7 +56,6 @@
 
   #intro, p {
     font-size: 12pt;
-    font-family: Lato;
   }
 
   .title {
