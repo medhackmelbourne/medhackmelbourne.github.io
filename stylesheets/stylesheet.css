@@ -51,7 +51,7 @@
   }
 
   #intro {
-    padding: 30px;
+    padding: 100px 30px 100px 30px;
   }
 
   #intro, p {
@@ -79,7 +79,7 @@
   #faq1 {
      background-color: #70cbce;
      color: #FFF;
-     padding: 30px 0px 40px 0px;
+     padding: 100px 0px 70px 0px;
      width: 100%;
   }
 
@@ -109,7 +109,7 @@
   }
 
   #speakers {
-    padding: 30px;
+    padding: 80px 30px 50px 30px;
     margin: 0 auto;
     background-color: #F9f9f9;
     overflow: hidden;
@@ -162,7 +162,7 @@
 
 #sponsors {
   background-color: #FFF;
-  padding-top: 30px;
+  padding-top: 100px;
   display: inline;
 }
 
