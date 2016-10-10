@@ -1,5 +1,9 @@
+<!-- Hello!
+     Welcome to our page!
+     Hope you enjoy your stay here.
+     With love, the med_hack team <3 -->
 
-    <!DOCTYPE html>
+  <!DOCTYPE html>
     <html lang="en">
            <head>
 
@@ -10,7 +14,7 @@
              <script src="https://use.fontawesome.com/cc52e96609.js"></script>
 
              <title>med_hack Melbourne</title>
-             <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search resu...">
+             <meta name="description" content="med_hack Melbourne | Healthcare Hackathon">
 
              <meta name="viewport" content="width=device-width, initial-scale=1">
              <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
@@ -22,13 +26,12 @@
              <link rel="alternate" type="application/rss+xml" title="Your awesome title" href="http://example.com/feed.xml">
              <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 
-             <!--Import Google Icon Font-->
+
              <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-             <!--Import materialize.css-->
+
              <link type="text/css" rel="stylesheet" href="stylesheets/materialize.min.css"  media="screen,projection"/>
 
-             <!--Let browser know website is optimized for mobile-->
-             <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
 
 
            </head>
@@ -116,7 +119,7 @@
                 It's time to take that next step.
                 <br>
                 <br>
-                Registration opens: 20 October'
+                Registration opens: 20 October
 
               </span>
               </span>
@@ -162,7 +165,7 @@
                  <h5>Intrigued?</h5>
                  <span class="cardtext">
                Curated articles to help you stay on top of the field.
-             </span> <br>
+             </span>
 
                <div class="socmed">
                <a href="https://www.facebook.com/medhackmelbourne/" style="color: #ffffff;"><i class="fa fa-facebook-official fa-3x" aria-hidden="true"></i></a> &nbsp; &nbsp;
@@ -189,7 +192,7 @@
                 <div class="texty">
 
                 <div class="col s16 m8 l8">
-                  <h4 style="color: #555;">
+                  <h4>
                     Be inspired.<br>
                   </h4>
                   <br>
@@ -202,6 +205,7 @@
                 </div>
               </div>
 
+            <div class="judgecontainer">
             <div class="row">
                <div class="col s12 m12 l6">
                  <div class="judge">
@@ -291,7 +295,7 @@
                    </div>
                   </div>
 
-
+                </div>
                </div>
           </div>
         </div>
@@ -303,28 +307,29 @@
             <div class="container">
               <h1>FAQs:</h1>
 
-
+              <!--- dropdown script from
+              https://coolestguidesontheplanet.com/creating-expandable-faq-page-using-jquery/  -->
               <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 
-<script>
- $(document).ready(function() {
+              <script>
+               $(document).ready(function() {
 
-    $('.faq_question').click(function() {
+                  $('.faq_question').click(function() {
 
-        if ($(this).parent().is('.open')){
-            $(this).closest('.faq').find('.faq_answer_container').animate({'height':'0'},500);
-            $(this).closest('.faq').removeClass('open');
+                      if ($(this).parent().is('.open')){
+                          $(this).closest('.faq').find('.faq_answer_container').animate({'height':'0'},500);
+                          $(this).closest('.faq').removeClass('open');
 
-            }else{
-                var newHeight =$(this).closest('.faq').find('.faq_answer').height() +'px';
-                $(this).closest('.faq').find('.faq_answer_container').animate({'height':newHeight},500);
-                $(this).closest('.faq').addClass('open');
-            }
+                          }else{
+                              var newHeight =$(this).closest('.faq').find('.faq_answer').height() +'px';
+                              $(this).closest('.faq').find('.faq_answer_container').animate({'height':newHeight},500);
+                              $(this).closest('.faq').addClass('open');
+                          }
 
-    });
+                  });
 
-});
-</script>
+              });
+              </script>
 
     <div class="faq">
       <div class="faq_question">1. Hold up, what is a medical hackathon?<br></div>
@@ -540,10 +545,31 @@
                           </p>
                         <br>
                       </div>
-                        </div>
+                    </div>
                  </div>
+                 <br>
+                 <div class="question">
+                   <div class="row">
 
- </div>
+                   <div class="col s12 m12 l8 offset-l2">
+                         <div class="card-panel white" style="alignment: center;">
+                           <div class="card-stacked">
+                             <div class="card-content">
+                               <span style="color: #555; font-size: 22pt; text-align: center;">
+                               <p><i class="large material-icons">email</i><br>
+                                 Have another question? We got you. <br>
+                                 Send it to us at:<br><br>
+                                 <a class="waves-effect waves-light btn blue" href="mailto:medhackmelbourne@gmail.com">medhackmelbourne@gmail.com</a>
+                               </p>
+                             </span>
+                             </div>
+                           </div>
+                           </div>
+                         </div>
+
+                       </div>
+                         </div>
+                       </div>
 
 
 
@@ -621,32 +647,16 @@
   </div>
 
 
-      <footer class="page-footer grey lighten-4">
-      <!--  <div class="container">
-          <div class="row">
-            <div class="col l6 s12">
-              <h5 class="grey-text">This is our footer!</h5>
-              <p class="grey-text text-lighten-4">Hello goodbye</p>
-            </div>
-            <div class="col l4 offset-l2 s12">
-              <h5 class="white-text">Follow Us:</h5>
-              <ul>
-                <li><a class="grey-text text-lighten-3" href="#!">Twitter</a></li>
-                <li><a class="grey-text text-lighten-3" href="#!">Facebook</a></li>
-                <li><a class="grey-text text-lighten-3" href="#!">Linkedin</a></li>
-                <li><a class="grey-text text-lighten-3" href="#!">Instagram</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>-->
-        <footer class="footer-copyright grey lighten-3">
+
+        <div class="footerz">
           <div class="container">
             <span class="grey-text">
-          © 2016, made with love by the med_hack team</span>
-          <a class="grey-text right" href="#!">More Links</a>
+          © 2016, made with &nbsp;<span style="color: #FF0000">&#x2764</span>&nbsp; by the med_hack team</span>
+          <a class="grey-text right" href="mailto:medhackmelbourne@gmail.com">Email us!</a>
           </div>
         </div>
-      </footer>
+      </span>
+      </div>
            </body>
          </html>
 

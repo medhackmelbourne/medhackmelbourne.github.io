@@ -53,6 +53,11 @@
     padding: 30px;
   }
 
+  #intro, p {
+    font-size: 12pt;
+    font-family: Lato;
+  }
+
   .title {
     color: #fff;
     font-family: Didact Gothic;
@@ -63,11 +68,32 @@
     padding: 40px 40px 40px 40px;
   }
 
+  .question {
+    margin: 0 auto;
+    color: #222;
+    align: center;
+
+  }
+
   #faq1 {
      background-color: #70cbce;
      color: #FFF;
-     padding: 20px;
+     padding: 30px 0px 40px 0px;
      width: 100%;
+  }
+
+  #faq1, p {
+    font-size: 14pt;
+  }
+
+  #faq1, a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  #faq1, a:visited {
+    color: #fff;
+    text-decoration: none;
   }
 
   .texty {
@@ -100,9 +126,10 @@
         flex: 1 1 380px;
   }
 
-  .cardtext {
-    font-size: 12pt;
+  .judgecontainer {
+    padding: 20px;
   }
+
 
   .judgename{
     font-size: 22px;
@@ -129,7 +156,7 @@
   }
 
 .socmed {
-  padding-top: 30px;
+  padding-top: 20px;
 }
 
 #sponsors {
@@ -146,6 +173,15 @@
 
 .imgimg {
   max-width: 550px;
+  margin: 0 auto;
+}
+
+.footerz {
+  background-color: #e0f2f1;
+  color: #222;
+  height: 50px;
+  font-weight: normal;
+  padding: 10px;
   margin: 0 auto;
 }
 
