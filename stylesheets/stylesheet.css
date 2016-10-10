@@ -18,6 +18,20 @@
     margin: 0;
     padding: 0; }
 
+    .faq_question {
+        margin: 0px;
+        padding: 0px 0px 5px 0px;
+        display: inline-block;
+        cursor: pointer;
+        font-weight: bold;
+    }
+
+    .faq_answer_container {
+        height: 0px;
+        overflow: hidden;
+        padding: 0px;
+    }
+
 
 
 
@@ -48,7 +62,7 @@
     padding: 40px 40px 40px 40px;
   }
 
-  .faq {
+  .faq1 {
      background-color: #70cbce;
      color: #FFF;
      padding: 20px;

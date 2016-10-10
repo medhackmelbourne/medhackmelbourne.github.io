@@ -83,7 +83,7 @@
 
             <p style="font-size: 14pt; color: #555555">
               Ideas matter. But even more inspiring than an idea alone is seeing it come to life to actually help people.
-              <i>med_hack</i> is a 24 hour event where you get to build innovative things with like-minded people.
+              <i>med_hack</i> is a two day event where you get to build innovative things with like-minded people.
               Whether you study or work in healthcare, build software or gadgets for a living, or love the business side of things
               - we want you. Even if you have no prior hackathon experience. <i>Because healthcare needs you.</i>
             </p>
@@ -292,83 +292,136 @@
       </div>
 
 
-      <div class="faq">
+      <div class="faq1">
         <div class="col-s12">
             <div class="container">
               <h1>FAQs:</h1>
 
 
+              <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 
+<script>
+ $(document).ready(function() {
 
-              <div class="row">
-                <div class="col s12 m12 l4" style="padding: 15px">
+    $('.faq_question').click(function() {
 
+        if ($(this).parent().is('.open')){
+            $(this).closest('.faq').find('.faq_answer_container').animate({'height':'0'},500);
+            $(this).closest('.faq').removeClass('open');
 
+            }else{
+                var newHeight =$(this).closest('.faq').find('.faq_answer').height() +'px';
+                $(this).closest('.faq').find('.faq_answer_container').animate({'height':newHeight},500);
+                $(this).closest('.faq').addClass('open');
+            }
 
+    });
 
+});
+</script>
 
-                  <h5><b>What is a hackathon?</b></h5><br>
+    <div class="faq">
+      <div class="faq_question"><h5><b>1. Hold up, what is a medical hackathon?</b></h5><br></div>
+           <div class="faq_answer_container">
+              <div class="faq_answer">
+                <p>
+                Medical hackathons are highly energetic 2-3 events (2 days, in our case) where teams collaborate across different
+                disciplines to solve important medical issues. In this time, you will brainstorm an idea, develop it,
+                structure a business model and learn to pitch the idea. We guarantee you'll be pumping adrenaline by the end.
+                </p></div>
+           </div>
+    </div>
+    <div class="faq">
+       <div class="faq_question"><h5><b>2. What is our theme?</b></h5><br></div>
+            <div class="faq_answer_container">
+               <div class="faq_answer">
+                 <p>
+                Our theme is chronic diseases - anything generally accepted in the medical profession as a “chronic disease”
+                is fair game! We're also not limiting participants on the aspects of chronic disease that they can tackle;
+                whether it is the patient experience, patient safety, etc. If you're unsure as to whether your idea is eligible,
+                our team at <a href="mailto:medhackmelbourne@gmail.com" style="color: #fff;">medhackmelbourne@gmail.com</a> are more than happy to lend a hand.
+                </p></div>
+            </div>
+     </div>
+     <div class="faq">
+        <div class="faq_question"><h5><b>3. Who can attend?</b></h5><br></div>
+             <div class="faq_answer_container">
+                <div class="faq_answer">
                   <p>
-                  Hackathons are where your brilliant ideas are turbocharged into reality.
-                  Build anything and everything! The possibilities are limitless. Make something, break something,
-                  do something you've always wanted to but never got the chance to.
-                  We help you meet other motivated participants as crazy as you and together, you'll make your dreams a reality.
-                </p>
-                </div>
-                <div class="col s12 m12 l4" style="padding: 15px">
-                  <h5><b>What if I don't have a team or an idea?</b></h5><br>
-                  <p>Doesn't matter! Many hackers don't have fully formed teams or ideas when they come.
-                    That's where we come in. We'll have team-forming events at the start of the event to help match you to teams and ideas. Then, the real fun starts!
-                  </p>
-                </div>
-                <div class="col s12 m12 l4" style="padding: 15px">
-                  <h5><b>Who can attend?</b></h5><br>
-                  <p>Anyone can attend! The bigger the mix, the better! We want to help bring together motivated participants from all fields whether they're students or working professionals. Then, we'll put your ideas into the pressure cooker!
-                  </p>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col s12 m12 l4" style="padding: 15px">
-                  <h5><b>How much does this cost?</b></h5><br>
-                  <p>
-                    This event will be low-cost. Meaning you pay $15 to attend, and upon confirmation that you've attended on the day itself, we'll refund you $10, effectively making this...$5!
-                  </p>
-                </div>
+                  Anyone! We have made it our mission to keep our event as open as possible.
+                  Whether you're the top neurosurgeon in Melbourne (who might make an appearance!)
+                  or a high school student at the beginnings of your journey, we have a spot for you at med_hack.
+                  Still reading and think you're too inexperienced for an event like this? From what we've seen,
+                  not being an expert allows you to avoid assumptions, orthodoxies and traps in the field,
+                  meaning you can truly be innovative.
+                                        </p></div>
+             </div>
+      </div>
+      <div class="faq">
+         <div class="faq_question"><h5><b>4. How do I apply, and what's the application process like?</b></h5><br></div>
+              <div class="faq_answer_container">
+                 <div class="faq_answer">
+                   <p>
+                     We have created a short application form to find out about the skillsets of participants
+                     (to streamline team-matching), ideas people want to explore (to find ideal mentors) and
+                     topics of interest (to develop our masterclasses). If you are finding it difficult to fill
+                     in the form, we would love to hear about your passion for the field and any other projects
+                     you may have undertaken.
+                    <br><br>
+                    Although there is an option to upload your CV or provide your Linkedin profile, this is
+                    completely optional and will not contribute to the application process.
+                    <br><br>
+                    Once submitted, participants will be contacted within 5 working days as to whether they have
+                    been successful in their application (with further instructions) or have been wait-listed.
+                    Successful applicants will be provided a link to purchase the tickets. These tickets <u>must</u>
+                    be purchased within 3 working days from receipt to confirm attendance.
 
-                <div class="col s12 m12 l4" style="padding: 15px">
-                  <h5><b>How do teams work?</b></h5><br>
-                  <p>Teams will comprise of 4-5 hackers. We'll have a team-forming event at the start to help match the ideas to the people needed!
-                  </p>
-                </div>
-
-                <div class="col s12 m12 l4" style="padding: 15px">
-                  <h5><b>What can I build?</b></h5><br>
-                  <p>Anything. Whether it's hardware, software, assistive tech, mobile solutions,
-                    we welcome all of it (within the realms of healthcare that is)! Ideas will be judged by our panel
-                    of judges based on their creativity, utility, as well as their feasibility.
-                  </p>
-                </div>
-              </div>
-
-              <div class="row">
-                <div class="col s12 m12 l4" style="padding: 15px">
-                  <h5><b>What should I bring?</b></h5><br>
-                  <p>Hackers neeed to bring any form of identification for registration, themselves, and any devices you think you may need during the hackathon (p.s. your laptops are highly recommended!)
-                  </p>
-                </div>
-
-                <div class="col s12 m12 l4" style="padding: 15px">
-                  <h5><b>What will I eat?</b></h5><br>
-                  <p>We'll br providing the food. Please DO let us know if you have any special dietary requirements during registration!</p>
-                </div>
-
-                <div class="col s12 m12 l4" style="padding: 15px">
-                  <h5><b>Where do I sleep?</b></h5><br>
-                  <p>Now, usual hackathons run overnight and some participants go through the night without sleep. HOWEVER, being a healthcare based hackathon, we'll strongly recommend participants take a break, go home and get some rest at the end of the day.
-                  </p>
+                    </p>
                   </div>
-
+              </div>
+       </div>
+       <div class="faq">
+          <div class="faq_question"><h5><b>5. How does the event work?</b></h5><br></div>
+               <div class="faq_answer_container">
+                  <div class="faq_answer">
+                    <p>
+                   Our Sparkboard will be open 5 days before the actual event. Ideas need to placed on our Sparkboard before
+                   28th of November 10am. Idea leaders will have 60 seconds to pitch their idea. People can then choose ideas
+                    which they love most and form teams of 4-6 people. Teams can then commence hacking. During hacking on Day 1,
+                     our experienced mentors will be available to advise on each team's business design and product development.
+                     Optional masterclasses will be held to equip you with fundamental and transferable skills that are integral
+                     to turning your innovative ideas into marketable products and solutions.. On Day 2, we will hold expert clinics
+                     for you to refine your idea and pitches. Teams will then present a two-minute pitch/demonstration with one minute
+                      of questions to our judging panel. Winners for 2016 will then be announced for med_hack! The journey won't end here
+                       - we've got many more surprises and hidden perks for you.
+                     </p></div>
+               </div>
+        </div>
+        <div class="faq">
+           <div class="faq_question"><h5><b>6. But... What if I don't have a team or idea?</b></h5><br></div>
+                <div class="faq_answer_container">
+                   <div class="faq_answer">
+                     <p>
+                    We've got you covered. Many hackers don't have fully formed teams or ideas when they come.
+                    We'll have activities at the start of the event to help you find your perfect match.
+                  </p></div>
                 </div>
+         </div>
+         <div class="faq">
+            <div class="faq_question"><h5><b>2. What is our theme?</b></h5><br></div>
+                 <div class="faq_answer_container">
+                    <div class="faq_answer">
+                      <p>
+                     Our theme is chronic diseases - anything generally accepted in the medical profession as a “chronic disease”
+                     is fair game! We're also not limiting participants on the aspects of chronic disease that they can tackle;
+                     whether it is the patient experience, patient safety, etc. If you're unsure as to whether your idea is eligible,
+                     our team at <a href="mailto:medhackmelbourne@gmail.com" style="color: #fff;">medhackmelbourne@gmail.com</a> are more than happy to lend a hand.
+                     </p></div>
+                 </div>
+          </div>
+
+ </div>
+
 
                 <!-- <div class="row"> -->
                 <br>
@@ -481,14 +534,20 @@
           </div>
         </div>
       </footer>
-
-             <!--Import jQuery before materialize.js-->
-             <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-             <script type="text/javascript" src="js/materialize.min.js"></script>
            </body>
          </html>
 
 
 
   </body>
+
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="/js/materialize.min.js"></script>
+
+<script>
+  $(document).ready(function(){
+    $('.collapsible').collapsible({
+      accordion : false // A setting that changes the collapsible behavior to expandable instead of the default accordion style
+    });
+});
 </html>
