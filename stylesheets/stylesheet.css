@@ -19,6 +19,9 @@
     padding: 0; }
 
 
+
+
+
   #medhack {
     padding: 200px 20px 200px 20px;
     margin: 0 auto;
@@ -114,6 +117,12 @@
   background-color: #FFF;
   padding-top: 30px;
   display: inline;
+}
+
+.sponsorpic {
+  max-width: 100%;
+  display: inline-block;
+  margin: 0 auto;
 }
 
 .imgimg {
