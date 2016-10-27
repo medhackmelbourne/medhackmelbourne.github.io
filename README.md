@@ -1,4 +1,5 @@
-# medhackmelbourne.github.io
-Tentative med hack web layout! This repo is for publishing. 
+# medhack.com.au 
+:smile::smile::smile::smile::smile::smile:
 
-Please direct all web design/code qns to Cheng! Not accepting PRs for this repo!
+Website for med_hack 2016.
+
